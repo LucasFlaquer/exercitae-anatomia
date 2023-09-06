@@ -5,6 +5,9 @@ export default {
     backgroundPosition: {
       banner_bones: 'left -50%',
     },
+    fontFamily: {
+      button: ['Hammersmith One'],
+    },
     extend: {},
   },
   plugins: [],

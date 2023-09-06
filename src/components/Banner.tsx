@@ -1,4 +1,5 @@
 import MainEbook from '../assets/capa-anatomia.png'
+import { ByNowButton } from './BuyNowButton'
 
 export function Banner() {
   return (
@@ -22,7 +23,7 @@ export function Banner() {
           a <strong>apoiar</strong> e <strong>guiar</strong> você durante essa
           trajetória.
         </p>
-        <button>Compre agora!</button>
+        <ByNowButton />
       </div>
       <figure className="border-8 border-[#921F3E] shadow-[8px_8px_0_1px_rgba(96,17,38,1)]">
         <img src={MainEbook} alt="" className="max-w-md" />
