@@ -15,7 +15,7 @@ export function Oportunity() {
         </p>
         <ByNowButton />
       </div>
-      <figure className="-translate-y-32 border-8 border-[#921F3E] shadow-[8px_8px_0_1px_rgba(96,17,38,1)]">
+      <figure className="mr-4 -translate-y-32 border-8 border-[#921F3E] shadow-[8px_8px_0_1px_rgba(96,17,38,1)]">
         <img src={PageOne} alt="" />
       </figure>
       <figure className="translate-y-32 border-8 border-[#921F3E] shadow-[8px_8px_0_1px_rgba(96,17,38,1)]">
