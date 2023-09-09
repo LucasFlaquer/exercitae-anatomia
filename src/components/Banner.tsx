@@ -1,6 +1,6 @@
 import MainEbook from '../assets/capa-anatomia.png'
 import { ByNowButton } from './BuyNowButton'
-import Bones from '../assets/chest-2.png'
+import Bones from '../assets/chest.png'
 
 export function Banner() {
   return (

@@ -1,6 +1,6 @@
-import { CheckCircle } from '@phosphor-icons/react'
+import { SealCheck } from '@phosphor-icons/react'
 import { ByNowButton } from './BuyNowButton'
-
+import Hand from '../assets/hand.png'
 export function Topics() {
   const topics = [
     'Eixos e planos de seccção do corpo humano;',
@@ -11,7 +11,7 @@ export function Topics() {
   ]
 
   return (
-    <div className="mt-10 container mx-auto pb-44 max-w-4xl">
+    <div className="mt-10 container mx-auto pb-44 max-w-4xl relative">
       <p className="text-xl mx-auto text-center">
         Nosso e-book possui{' '}
         <strong>ilustrações detalhadas e explicações claras</strong> sobre
@@ -26,7 +26,7 @@ export function Topics() {
         {topics.map((topic) => (
           <li className="flex items-center gap-2 mb-4" key={topic}>
             <span>
-              <CheckCircle size={32} weight="fill" color="#921f3E" />
+              <SealCheck size={32} weight="fill" color="#921f3E" />
             </span>
             <span className="bg-[#921f3E] text-xl text-white w-fit p-2">
               {topic}
@@ -37,6 +37,11 @@ export function Topics() {
       <div className="text-center">
         <ByNowButton />
       </div>
+      <img
+        src={Hand}
+        alt=""
+        className="absolute max-h-[600px] right-[-30%] mix-blend-multiply top-[2rem]"
+      />
     </div>
   )
 }
