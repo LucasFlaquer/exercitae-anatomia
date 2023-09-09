@@ -3,7 +3,7 @@ import { Banner } from './components/Banner'
 import { Topics } from './components/Topics'
 import { Oportunity } from './components/Oportunity'
 import { Features } from './components/Features'
-// import { WhoWeAre } from './components/WhoWeAre'
+import { WhoWeAre } from './components/WhoWeAre'
 
 export function App() {
   return (
@@ -12,8 +12,7 @@ export function App() {
       <Topics />
       <Oportunity />
       <Features />
-      {/* 
-      <WhoWeAre /> */}
+      <WhoWeAre />
     </div>
   )
 }

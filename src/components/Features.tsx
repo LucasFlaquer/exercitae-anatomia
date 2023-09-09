@@ -25,7 +25,7 @@ export function Features() {
     },
   ]
   return (
-    <div className="container mx-auto pb-44">
+    <div className="container mx-auto pb-14">
       <div className="relative mb-10">
         <h2 className="text-center font-bold text-5xl text-[#921F3E]">
           POR QUE O E-BOOK É{' '}
