@@ -1,11 +1,17 @@
 import MainEbook from '../assets/capa-anatomia.png'
 import { ByNowButton } from './BuyNowButton'
+import Bones from '../assets/chest-2.png'
 
 export function Banner() {
   return (
     <div
-      className={`bg-[url(src/assets/bones-chest.png)] bg-no-repeat bg-[banner_bones] container mx-auto flex items-center py-10 justify-center gap-10 `}
+      className={`bg-[banner_bones] container mx-auto flex items-center py-10 justify-center gap-10 relative`}
     >
+      <img
+        src={Bones}
+        alt=""
+        className="absolute max-h-[500px] left-0 mix-blend-multiply top-[2rem]"
+      />
       <div className="max-w-lg">
         <h1 className="text-[#921F3E] font-bold uppercase text-6xl mb-4">
           Bem-vindo(a)
