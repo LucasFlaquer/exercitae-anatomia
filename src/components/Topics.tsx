@@ -1,3 +1,4 @@
+import { CheckCircle } from '@phosphor-icons/react'
 import { ByNowButton } from './BuyNowButton'
 
 export function Topics() {
@@ -10,7 +11,7 @@ export function Topics() {
   ]
 
   return (
-    <div className="mt-10 container mx-auto pb-44 max-w-3xl">
+    <div className="mt-10 container mx-auto pb-44 max-w-4xl">
       <p className="text-xl mx-auto text-center">
         Nosso e-book possui{' '}
         <strong>ilustrações detalhadas e explicações claras</strong> sobre
@@ -23,11 +24,13 @@ export function Topics() {
       </h3>
       <ul className="mx-auto mt-4">
         {topics.map((topic) => (
-          <li
-            className="bg-[#921f3E] mb-4 text-xl text-white w-fit p-2"
-            key={topic}
-          >
-            {topic}
+          <li className="flex items-center gap-2 mb-4" key={topic}>
+            <span>
+              <CheckCircle size={32} weight="fill" color="#921f3E" />
+            </span>
+            <span className="bg-[#921f3E] text-xl text-white w-fit p-2">
+              {topic}
+            </span>
           </li>
         ))}
       </ul>
