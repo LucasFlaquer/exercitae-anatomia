@@ -25,9 +25,9 @@ export function Features() {
     },
   ]
   return (
-    <div className="container mx-auto pb-14">
+    <div className="container mx-auto pb-14 mt-12">
       <div className="relative mb-10">
-        <h2 className="text-center font-bold text-5xl text-[#921F3E]">
+        <h2 className="text-center font-bold text-3xl lg:text-5xl text-[#921F3E]">
           POR QUE O E-BOOK É{' '}
           <span className="block p-1 border-1">IMPERDÍVEL?</span>
         </h2>
@@ -37,8 +37,7 @@ export function Features() {
           className="absolute max-h-[360px] left-[50%] mix-blend-multiply top-[30%] -translate-y-1/2 -translate-x-1/2"
         />
       </div>
-
-      <div className="flex gap-12 items-start justify-center">
+      <div className="flex gap-12 justify-center items-center lg:items-start flex-col lg:flex-row">
         {features.map((feature) => (
           <div className="text-center w-80" key={feature.title}>
             <h3 className="flex items-center justify-center text-[#921F3E] font-bold text-xl min-h-[4rem]">
