@@ -14,7 +14,7 @@ export function Oportunity() {
           Você está prestes a dar um passo fundamental em sua jornada de
           conhecimento na área da saúde.
         </p>
-        <div className="text-center md:text-right">
+        <div className="text-center md:text-left">
           <ByNowButton />
         </div>
       </div>
