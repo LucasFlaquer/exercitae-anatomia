@@ -37,7 +37,7 @@ export function Features() {
           className="absolute max-h-[360px] left-[50%] mix-blend-multiply top-[30%] -translate-y-1/2 -translate-x-1/2"
         />
       </div>
-      <div className="flex gap-12 justify-center items-center lg:items-start flex-col lg:flex-row">
+      <div className="flex gap-4 lg:gap-12 justify-center items-center lg:items-start flex-col lg:flex-row">
         {features.map((feature) => (
           <div className="text-center w-80" key={feature.title}>
             <h3 className="flex items-center justify-center text-[#921F3E] font-bold text-xl min-h-[4rem]">

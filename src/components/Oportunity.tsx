@@ -14,7 +14,9 @@ export function Oportunity() {
           Você está prestes a dar um passo fundamental em sua jornada de
           conhecimento na área da saúde.
         </p>
-        <ByNowButton />
+        <div className="text-center md:text-right">
+          <ByNowButton />
+        </div>
       </div>
       <figure className="order-1 lg:order-none lg:mr-4 lg:-translate-y-32 border-8 border-[#921F3E] shadow-[8px_8px_0_1px_rgba(96,17,38,1)]">
         <img src={PageOne} alt="" />

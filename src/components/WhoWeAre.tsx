@@ -3,7 +3,7 @@ import Base from '../assets/base.png'
 
 export function WhoWeAre() {
   return (
-    <div className="container flex justify-between gap-8 max-w-6xl mx-auto items-center pb-8 relative">
+    <div className="px-4 container flex flex-col-reverse lg:flex-row justify-between gap-8 max-w-6xl mx-auto items-center pb-8 relative">
       <div className="relative">
         <figure className="bg-[#921F3E] rounded-3xl overflow-hidden max-w-[350px] ">
           <img
@@ -16,13 +16,15 @@ export function WhoWeAre() {
           href="https://www.instagram.com/exercitae/"
           target="_blank"
           rel="noreferrer"
-          className="transition hover:bg-[rgba(96,17,38,0.8)] absolute -right-16 bottom-16 text-xl uppercase text-white font-[Open Sans] block p-1 bg-[#921F3E] font-semibold"
+          className="transition hover:bg-[rgba(96,17,38,0.8)] absolute lg:-right-16 bottom-16 text-xl uppercase text-white font-[Open Sans] block p-1 bg-[#921F3E] font-semibold"
         >
           @ Exercitae
         </a>
       </div>
       <div className="max-w-2xl">
-        <h2 className="font-bold text-6xl text-[#921F3E] mb-8">Quem Somos?</h2>
+        <h2 className="font-bold text-3xl lg:text-6xl text-[#921F3E] mb-8">
+          Quem Somos?
+        </h2>
         <p className="mb-4 text-lg">
           O <strong>ExercitAÊ</strong> é um projeto inovador que visa promover a
           disseminação do conhecimento na área da Educação Física e saúde,
