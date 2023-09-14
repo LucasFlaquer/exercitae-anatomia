@@ -11,8 +11,8 @@ export function Topics() {
   ]
 
   return (
-    <div className="mt-10 container mx-auto pb-44 max-w-4xl relative">
-      <p className="text-xl mx-auto text-center">
+    <div className="container px-4 overflow-x-hidden md:overflow-x-visible mt-10  mx-auto pb-44 max-w-4xl relative">
+      <p className="lg:text-xl mx-auto text-center">
         Nosso e-book possui{' '}
         <strong>ilustrações detalhadas e explicações claras</strong> sobre
         sistemas orgânicos, estruturas e funções, proporcionando aos estudantes
@@ -28,7 +28,7 @@ export function Topics() {
             <span>
               <SealCheck size={32} weight="fill" color="#921f3E" />
             </span>
-            <span className="bg-[#921f3E] text-xl text-white w-fit p-2">
+            <span className="bg-[#921f3E] text-base lg:text-xl text-white w-fit p-2">
               {topic}
             </span>
           </li>
