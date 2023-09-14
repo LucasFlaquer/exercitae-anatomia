@@ -3,7 +3,7 @@ import Base from '../assets/base.png'
 
 export function WhoWeAre() {
   return (
-    <div className="px-4 container flex flex-col-reverse lg:flex-row justify-between gap-8 max-w-6xl mx-auto items-center pb-8 relative">
+    <div className="px-4 container flex flex-col-reverse lg:flex-row justify-between gap-8 max-w-6xl mx-auto items-center pb-8 relative overflow-x-hidden md:overflow-x-visible">
       <div className="relative">
         <figure className="bg-[#921F3E] rounded-3xl overflow-hidden max-w-[350px] ">
           <img
