@@ -11,7 +11,7 @@ export function Topics() {
   ]
 
   return (
-    <div className="container px-4 overflow-x-hidden md:overflow-x-visible mt-10  mx-auto pb-44 max-w-4xl relative">
+    <div className="container px-4 overflow-x-hidden md:overflow-x-visible mt-10  mx-auto pb-14 lg:pb-44 max-w-4xl relative">
       <p className="lg:text-xl mx-auto text-center">
         Nosso e-book possui{' '}
         <strong>ilustrações detalhadas e explicações claras</strong> sobre
