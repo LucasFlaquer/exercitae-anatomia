@@ -5,7 +5,7 @@ import Column from '../assets/column.png'
 
 export function Oportunity() {
   return (
-    <div className="px-4 mt-10 container mx-auto pb-14 max-w-7xl relative flex items-center gap-4 flex-col lg:flex-row">
+    <div className="px-4 mt-10 container mx-auto pb-14 lg:pb-44 max-w-7xl relative flex items-center gap-4 flex-col lg:flex-row">
       <div className="order-2 lg:order-none content min-w-[35%] mt-4 lg:mt-0 mb-4 lg:mb-0">
         <h2 className="text-[#921F3E] font-bold uppercase text-2xl lg:text-4xl mb-4 ">
           Não perca essa oportunidade!
