@@ -37,13 +37,13 @@ export function Features() {
           className="absolute max-h-[360px] left-[50%] mix-blend-multiply top-[30%] -translate-y-1/2 -translate-x-1/2"
         />
       </div>
-      <div className="flex gap-4 lg:gap-12 justify-center items-center lg:items-start flex-col lg:flex-row">
+      <div className="flex lg:flex-wrap xl:flex-nowrap gap-4 lg:gap-12 justify-center items-center lg:items-start flex-col lg:flex-row">
         {features.map((feature) => (
           <div className="text-center w-80" key={feature.title}>
             <h3 className="flex items-center justify-center text-[#921F3E] font-bold text-xl min-h-[4rem]">
               {feature.title}
             </h3>
-            <p className="h-[250px] text-[#921F3E] border-2 border-[#921F3E] shadow-[10px_10px_0_1px_rgba(96,17,38,1)] text-lg p-3">
+            <p className="h-[250px] lg:h-[200px] xl:h-[350px]  text-[#921F3E] border-2 border-[#921F3E] shadow-[10px_10px_0_1px_rgba(96,17,38,1)] text-lg p-3">
               {feature.text}
             </p>
           </div>
